@@ -1,6 +1,6 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import ESTADO from '../recursos/estado';
-const urlBase = 'http://backend-bcc-2-b.vercel.app/usuario';
+const urlBase = 'https://backend-bcc-2-b.vercel.app/usuario';
 //Thunks
 export const buscarUsuarios = createAsyncThunk('usuario/buscarUsuarios', async () => {
     try { 

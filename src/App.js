@@ -1,4 +1,5 @@
 import Usuario from "./telaCadastro/formularios/usuario";
+import Mensagem from "./telaCadastro/formularios/mensagem";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Provider } from "react-redux";
 import { ToastContainer, toast } from "react-toastify";
@@ -12,8 +13,8 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/usuarios" element={<Usuario />} />
-            {//<Route path="/mensagems" element={<Mensagem />} />
-            }
+            <Route path="/mensagems" element={<Mensagem />} />
+            
             <Route path="/" element={<TelaMenu />} />
           </Routes>
         </BrowserRouter>

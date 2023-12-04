@@ -6,7 +6,6 @@ export default function pagina(props) {
             <Menu />
             <div>
                 {
-                    // filhos da página
                 }
                 {props.children} 
             </div>

@@ -2,8 +2,8 @@ import { useState } from 'react';
 import { toast } from 'react-toastify';
 import { Container, Form, Row, Col, Button, FloatingLabel,Table,Image} from 'react-bootstrap';
 import { useSelector, useDispatch } from 'react-redux';
-import ESTADO from '../../recursos/estado';
-import { adicionarUsuario } from '../../redux/usuarioReducer';
+import ESTADO from '../../recursos/estado.js';
+import { adicionarUsuario } from '../../redux/usuarioReducer.js';
 
 export default function Usuario(props) {
 
@@ -14,7 +14,7 @@ export default function Usuario(props) {
     }
     const estadoInicial = props.usuario;
     const [usuario, setUsuario] = useState(estadoInicial);
-    const { estado, mensagem, usuarios } = useSelector((state) => state.uusario);
+    const { estado, mensagem, usuarios } = useSelector((state) => state.usuario);
     const dispatch = useDispatch();
 
     function manipularMudancas(e) {
