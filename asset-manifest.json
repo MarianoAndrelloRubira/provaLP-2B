@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/provaLP-2B/static/js/main.3a5a854c.js",
+    "main.css": "/provaLP-2B/static/css/main.241951ba.css",
+    "main.js": "/provaLP-2B/static/js/main.8e32432c.js",
     "index.html": "/provaLP-2B/index.html",
-    "main.3a5a854c.js.map": "/provaLP-2B/static/js/main.3a5a854c.js.map"
+    "main.241951ba.css.map": "/provaLP-2B/static/css/main.241951ba.css.map",
+    "main.8e32432c.js.map": "/provaLP-2B/static/js/main.8e32432c.js.map"
   },
   "entrypoints": [
-    "static/js/main.3a5a854c.js"
+    "static/css/main.241951ba.css",
+    "static/js/main.8e32432c.js"
   ]
 }
