@@ -60,8 +60,8 @@ export default function Usuario(props) {
                                     <Form.Control
                                         type="text"
                                         placeholder="LocoAbrel"
-                                        id="apelido"
-                                        name="apelido"
+                                        id="nickname"
+                                        name="nickmane"
                                         value={usuario.nickname}
                                         onChange={manipularMudancas}
                                         disabled />
@@ -80,8 +80,8 @@ export default function Usuario(props) {
                                     <Form.Control
                                         type="text"
                                         placeholder="Insira a url de uma imagem"
-                                        id="imagem"
-                                        name="imagem"
+                                        id="urlAvatar"
+                                        name="urlAvatar"
                                         value={usuario.urlAvatar}
                                         onChange={manipularMudancas}
                                         required />
